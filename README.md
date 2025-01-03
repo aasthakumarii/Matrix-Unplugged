@@ -25,9 +25,9 @@ Technologies Used
 - Canvas (HTML5): For the animated matrix effect in the background.
 
 How It Works
--Homepage: Contains event details and navigation to the multimedia event and speaker session.
--Registration Page: Collects participant details (name, phone, registration number, and batch) and sends them via a mailto link.
--Multimedia Event Page: Describes the activities and experiences in the multimedia event.
--Speaker Session Page: Provides information about the session and speakers.
--Navigation Buttons: Allows users to move between the pages of the event website.
+- Homepage: Contains event details and navigation to the multimedia event and speaker session.
+- Registration Page: Collects participant details (name, phone, registration number, and batch) and sends them via a mailto link.
+- Multimedia Event Page: Describes the activities and experiences in the multimedia event.
+- Speaker Session Page: Provides information about the session and speakers.
+- Navigation Buttons: Allows users to move between the pages of the event website.
 
