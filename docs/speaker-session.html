@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speaker Session</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+  <div class="content">
+    <header>
+      <h1>Speaker Session: Breaking the Matrix</h1>
+      <p>Join us as we delve into the role of multimedia in shaping the future of technology and storytelling.</p>
+      <p>Time: 10am-12pm</p>
+    </header>
+    <section>
+      <h2>Details</h2>
+      <p>Expert speakers will explore how multimedia is transforming storytelling, AI, and virtual experiences.</p>
+    </section>
+    <section id="buttons">
+        <button id="main"><img src="prev.png" alt="previous"></button>
+        <span>Navigate for more!</span>
+        <button id="media"><img src="next.png" alt="next"></button>
+    </section>
+  </div>
+  <script>
+    document.getElementById('main').addEventListener('click', function () {
+      window.location.href = 'index.html';
+    });
+    document.getElementById('media').addEventListener('click', function () {
+      window.location.href = 'multimedia-event.html';
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
