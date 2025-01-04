@@ -116,7 +116,7 @@ body, html {
 .form {
   background: rgba(0, 0, 0, 0.7); /* Transparent dark background */
   color: white;
-  padding: 2rem;
+  padding: 5rem;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
   max-width: 600px;
