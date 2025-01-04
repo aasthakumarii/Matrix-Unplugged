@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Club</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+  <header class="navbar">
+    <!-- Navigation (optional) -->
+  </header>
+  <div class="content">
+    <header>
+      <h1>Matrix Club Presents</h1>
+    </header>
+    <section>
+      <h2>The Matrix Unplugged:</h2>
+      <h2>Insights and Imagination</h2>
+    </section>
+    <section>
+      <p>Join us for a speaker session on AI, ethics, and multimedia, followed by an immersive event inspired by The Matrix.</p>
+      <br><p>25th January 2025</p>
+      <p>Time: 10am-4pm</p>
+    </section>
+    <h2>Interested?</h2>
+    <section id="buttons">
+      <button id="last"><img src="prev.png" alt="previous"></button>
+      <button id="middle"><img src="next.png" alt="next"></button>
+    </section>
+    <p>ODs will be provided!</p>
+    <a href="register.html"><button type="button" class="btn">Register Now</button>
+    </a>
+    <footer>
+      <p>Contact us at: <a href="mailto:matrixclub@vitbhopal.ac.in">matrixclub@vitbhopal.ac.in</a></p>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('last').addEventListener('click', function () {
+      window.location.href = 'multimedia-event.html';
+    });
+    document.getElementById('middle').addEventListener('click', function () {
+      window.location.href = 'speaker-session.html';
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
