@@ -13,7 +13,7 @@ Features
 Installation
 To run the website locally, follow these steps:
 1. Clone the repository to your local machine:
-git clone https://github.com/your-username/matrix-unplugged.git
+git clone https://github.com/aasthakumarii/matrix-unplugged.git
 2. Open the folder in your preferred code editor.
 3. Open the index.html file in your web browser to view the website locally.
 No server setup is required as the website is entirely static.
